@@ -8,4 +8,9 @@ target 'PlanningApp' do
   # Pods for PlanningApp
 pod 'FSCalendar'
 pod 'RealmSwift'
+pod 'Firebase/Analytics'
+pod 'GoogleSignIn'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+
 end

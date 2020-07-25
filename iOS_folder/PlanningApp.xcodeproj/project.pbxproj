@@ -15,9 +15,11 @@
 		F23EF85724B7799A00862DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23EF85624B7799A00862DBE /* Assets.xcassets */; };
 		F23EF85A24B7799A00862DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23EF85824B7799A00862DBE /* LaunchScreen.storyboard */; };
 		F23EF86224C104BE00862DBE /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86124C104BE00862DBE /* AddViewController.swift */; };
-		F23EF86424C12A1400862DBE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86324C12A1400862DBE /* LoginViewController.swift */; };
 		F23EF86624C12B4E00862DBE /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86524C12B4E00862DBE /* roundButton.swift */; };
 		F23EF86A24CAB68F00862DBE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86924CAB68F00862DBE /* CalendarViewController.swift */; };
+		F2BA61B324CCC9F100EA8EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2BA61B224CCC9F100EA8EB1 /* GoogleService-Info.plist */; };
+		F2BA61B724CCD15200EA8EB1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */; };
+		F2BA61B924CCD59D00EA8EB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +35,11 @@
 		F23EF85924B7799A00862DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F23EF85B24B7799A00862DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F23EF86124C104BE00862DBE /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		F23EF86324C12A1400862DBE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F23EF86524C12B4E00862DBE /* roundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
 		F23EF86924CAB68F00862DBE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F2BA61B224CCC9F100EA8EB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "/Users/meenasambandam/Desktop/Smriti's Codes/dailyplannerapp/iOS_folder/PlanningApp/SignUpViewController.swift"; sourceTree = "<absolute>"; };
+		F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,17 +92,19 @@
 		F23EF84C24B7798F00862DBE /* PlanningApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */,
 				F23EF84D24B7798F00862DBE /* AppDelegate.swift */,
+				F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */,
 				F23EF84F24B7798F00862DBE /* SceneDelegate.swift */,
 				F23EF85124B7798F00862DBE /* ViewController.swift */,
 				F23EF86124C104BE00862DBE /* AddViewController.swift */,
-				F23EF86324C12A1400862DBE /* LoginViewController.swift */,
 				F23EF86924CAB68F00862DBE /* CalendarViewController.swift */,
 				F23EF85324B7798F00862DBE /* Main.storyboard */,
 				F23EF86524C12B4E00862DBE /* roundButton.swift */,
 				F23EF85624B7799A00862DBE /* Assets.xcassets */,
 				F23EF85824B7799A00862DBE /* LaunchScreen.storyboard */,
 				F23EF85B24B7799A00862DBE /* Info.plist */,
+				F2BA61B224CCC9F100EA8EB1 /* GoogleService-Info.plist */,
 			);
 			path = PlanningApp;
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 				F23EF84724B7798F00862DBE /* Frameworks */,
 				F23EF84824B7798F00862DBE /* Resources */,
 				43378FC80DEBDB70E3F7EFF5 /* [CP] Embed Pods Frameworks */,
+				4DD4E85A50C251F6E0D3A6D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23EF85A24B7799A00862DBE /* LaunchScreen.storyboard in Resources */,
+				F2BA61B324CCC9F100EA8EB1 /* GoogleService-Info.plist in Resources */,
 				F23EF85724B7799A00862DBE /* Assets.xcassets in Resources */,
 				F23EF85524B7798F00862DBE /* Main.storyboard in Resources */,
 			);
@@ -180,18 +188,46 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD4E85A50C251F6E0D3A6D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		958B1B737209EB631F9D46C9 /* [CP] Check Pods Manifest.lock */ = {
@@ -221,8 +257,9 @@
 			files = (
 				F23EF85224B7798F00862DBE /* ViewController.swift in Sources */,
 				F23EF84E24B7798F00862DBE /* AppDelegate.swift in Sources */,
+				F2BA61B724CCD15200EA8EB1 /* SignUpViewController.swift in Sources */,
 				F23EF86224C104BE00862DBE /* AddViewController.swift in Sources */,
-				F23EF86424C12A1400862DBE /* LoginViewController.swift in Sources */,
+				F2BA61B924CCD59D00EA8EB1 /* LoginViewController.swift in Sources */,
 				F23EF86624C12B4E00862DBE /* roundButton.swift in Sources */,
 				F23EF86A24CAB68F00862DBE /* CalendarViewController.swift in Sources */,
 				F23EF85024B7798F00862DBE /* SceneDelegate.swift in Sources */,

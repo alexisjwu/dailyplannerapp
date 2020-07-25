@@ -8,7 +8,8 @@
 
 import UIKit
 import UserNotifications
-
+import FirebaseAuth
+import FirebaseDatabase
 class ViewController: UIViewController {
 
     @IBOutlet var table: UITableView!
@@ -26,6 +27,11 @@ class ViewController: UIViewController {
             }
         })
         
+    }
+    
+    @IBAction func logout(_ sender: Any) {
+        try! Auth.auth().signOut()
+        self.dismiss(animated: false, completion: nil)
     }
     @IBAction func didTapAdd() {
         //show add vc
