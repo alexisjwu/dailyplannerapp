@@ -1,8 +1,9 @@
 //
 //  SignUpViewController.swift
-//  
+//  PlanningApp
 //
-//  Created by Meena Sambandam on 7/25/20.
+//  Created by Alexis Wu on 7/27/20.
+//  Copyright © 2020 Smriti Somasundaram. All rights reserved.
 //
 
 import UIKit

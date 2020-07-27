@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8D483B924CF544500F96ABC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D483B824CF544500F96ABC /* SignUpViewController.swift */; };
 		EC8D67B8DE64BDAA421FD29A /* Pods_PlanningApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E8BB5555050310F99A012 /* Pods_PlanningApp.framework */; };
 		F23EF84E24B7798F00862DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF84D24B7798F00862DBE /* AppDelegate.swift */; };
 		F23EF85024B7798F00862DBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF84F24B7798F00862DBE /* SceneDelegate.swift */; };
@@ -18,7 +19,6 @@
 		F23EF86624C12B4E00862DBE /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86524C12B4E00862DBE /* roundButton.swift */; };
 		F23EF86A24CAB68F00862DBE /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23EF86924CAB68F00862DBE /* CalendarViewController.swift */; };
 		F2BA61B324CCC9F100EA8EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2BA61B224CCC9F100EA8EB1 /* GoogleService-Info.plist */; };
-		F2BA61B724CCD15200EA8EB1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */; };
 		F2BA61B924CCD59D00EA8EB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +26,7 @@
 		39FE92D74A20867EAAE8DDFC /* Pods-PlanningApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanningApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp.debug.xcconfig"; sourceTree = "<group>"; };
 		549E8BB5555050310F99A012 /* Pods_PlanningApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanningApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF6559237DF5E7C614C2308 /* Pods-PlanningApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanningApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlanningApp/Pods-PlanningApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8D483B824CF544500F96ABC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F23EF84A24B7798F00862DBE /* PlanningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23EF84D24B7798F00862DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F23EF84F24B7798F00862DBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		F23EF86524C12B4E00862DBE /* roundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
 		F23EF86924CAB68F00862DBE /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		F2BA61B224CCC9F100EA8EB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "/Users/meenasambandam/Desktop/Smriti's Codes/dailyplannerapp/iOS_folder/PlanningApp/SignUpViewController.swift"; sourceTree = "<absolute>"; };
 		F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 		F23EF84C24B7798F00862DBE /* PlanningApp */ = {
 			isa = PBXGroup;
 			children = (
-				F2BA61B624CCD15200EA8EB1 /* SignUpViewController.swift */,
+				B8D483B824CF544500F96ABC /* SignUpViewController.swift */,
 				F23EF84D24B7798F00862DBE /* AppDelegate.swift */,
 				F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */,
 				F23EF84F24B7798F00862DBE /* SceneDelegate.swift */,
@@ -257,7 +257,7 @@
 			files = (
 				F23EF85224B7798F00862DBE /* ViewController.swift in Sources */,
 				F23EF84E24B7798F00862DBE /* AppDelegate.swift in Sources */,
-				F2BA61B724CCD15200EA8EB1 /* SignUpViewController.swift in Sources */,
+				B8D483B924CF544500F96ABC /* SignUpViewController.swift in Sources */,
 				F23EF86224C104BE00862DBE /* AddViewController.swift in Sources */,
 				F2BA61B924CCD59D00EA8EB1 /* LoginViewController.swift in Sources */,
 				F23EF86624C12B4E00862DBE /* roundButton.swift in Sources */,
