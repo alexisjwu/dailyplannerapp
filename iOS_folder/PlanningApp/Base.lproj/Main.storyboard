@@ -527,7 +527,6 @@
                     <connections>
                         <segue destination="OFr-Lj-2GX" kind="relationship" relationship="viewControllers" id="HbR-OL-hXz"/>
                         <segue destination="g1x-WF-dQb" kind="relationship" relationship="viewControllers" id="YAa-Ry-G2p"/>
-                        <segue destination="FWl-Dx-Nmz" kind="relationship" relationship="viewControllers" id="48w-Ic-GKS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sgm-Mw-Hhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
