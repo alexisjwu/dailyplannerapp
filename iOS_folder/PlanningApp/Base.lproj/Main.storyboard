@@ -214,7 +214,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6Z-sn-Cst">
-                                <rect key="frame" x="125" y="204" width="164" height="49"/>
+                                <rect key="frame" x="125" y="209" width="164" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="41"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -312,7 +312,7 @@
                             <constraint firstItem="M9f-wm-6NE" firstAttribute="centerX" secondItem="bFD-op-SV5" secondAttribute="centerX" id="CAo-FN-JTQ"/>
                             <constraint firstItem="d6Z-sn-Cst" firstAttribute="centerX" secondItem="bFD-op-SV5" secondAttribute="centerX" id="WCh-bh-JpT"/>
                             <constraint firstItem="M9f-wm-6NE" firstAttribute="leading" secondItem="hGX-Vh-8ou" secondAttribute="leading" constant="40" id="XzE-dC-BMA"/>
-                            <constraint firstItem="M9f-wm-6NE" firstAttribute="top" secondItem="d6Z-sn-Cst" secondAttribute="bottom" constant="80" id="n5U-m9-Ggr"/>
+                            <constraint firstItem="M9f-wm-6NE" firstAttribute="top" secondItem="d6Z-sn-Cst" secondAttribute="bottom" constant="75" id="n5U-m9-Ggr"/>
                             <constraint firstItem="M9f-wm-6NE" firstAttribute="centerY" secondItem="bFD-op-SV5" secondAttribute="centerY" constant="35" id="wxg-pL-BSw"/>
                             <constraint firstItem="hGX-Vh-8ou" firstAttribute="trailing" secondItem="M9f-wm-6NE" secondAttribute="trailing" constant="40" id="yxu-iW-xVw"/>
                         </constraints>
