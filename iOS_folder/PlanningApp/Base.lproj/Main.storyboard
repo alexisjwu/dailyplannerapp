@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AWW-CS-md9">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AWW-CS-md9">
                                 <rect key="frame" x="0.0" y="397" width="414" height="416"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
@@ -43,10 +43,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.57578817879999999" green="0.66048180059999995" blue="0.69787039969999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="AWW-CS-md9" firstAttribute="bottom" secondItem="qT7-bo-SP0" secondAttribute="bottom" id="2J9-IG-6FT"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="top" secondItem="qT7-bo-SP0" secondAttribute="top" constant="69" id="2bd-JE-Z2m"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="top" secondItem="qT7-bo-SP0" secondAttribute="top" constant="69" id="2yk-zu-4Vj"/>
                             <constraint firstItem="AWW-CS-md9" firstAttribute="top" secondItem="cqT-Aj-beI" secondAttribute="bottom" constant="8" id="3Nb-sl-zEz"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="trailing" secondItem="qT7-bo-SP0" secondAttribute="trailing" id="CQz-xl-pdz"/>
+                            <constraint firstItem="AWW-CS-md9" firstAttribute="trailing" secondItem="qT7-bo-SP0" secondAttribute="trailing" id="NFe-Zk-d17"/>
+                            <constraint firstItem="AWW-CS-md9" firstAttribute="leading" secondItem="qT7-bo-SP0" secondAttribute="leading" id="WYa-mT-Q5i"/>
                             <constraint firstItem="AWW-CS-md9" firstAttribute="top" secondItem="cqT-Aj-beI" secondAttribute="bottom" constant="8" id="Wnn-5o-ErW"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="leading" secondItem="qT7-bo-SP0" secondAttribute="leading" id="bEc-CC-5Wb"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="trailing" secondItem="qT7-bo-SP0" secondAttribute="trailing" id="nnG-p6-G48"/>
