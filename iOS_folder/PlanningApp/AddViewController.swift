@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseDatabase
 class AddViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var titleField: UITextField!
     @IBOutlet var bodyField: UITextField!
     @IBOutlet var datePicker: UIDatePicker!
+    
+
     
     public var completion: ((String, String, Date)-> Void)?
     override func viewDidLoad() {
@@ -26,6 +30,17 @@ class AddViewController: UIViewController, UITextFieldDelegate {
             let bodyText = bodyField.text, !bodyText.isEmpty{
             let targetDate = datePicker.date
         completion?(titleText, bodyText, targetDate)
+            //adding data to firebase database
+            let user = Auth.auth().currentUser
+            let uid = user!.uid
+            let ref = Database.database().reference()
+            let formatter = DateFormatter()
+            formatter.dateFormat = "MMM dd, YYYY"
+            let dateForm = formatter.string(from: datePicker.date)
+            let newUserReference = ref.child("Accounts").child(uid).child("Reminders").child(dateForm).child(titleField.text!)
+            newUserReference.setValue(["title": titleField.text!, "body": bodyField.text!, "date": dateForm])
+
+            
         }
         
     }
