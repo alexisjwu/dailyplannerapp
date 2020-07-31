@@ -48,13 +48,8 @@
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="top" secondItem="qT7-bo-SP0" secondAttribute="top" constant="69" id="2yk-zu-4Vj"/>
                             <constraint firstItem="AWW-CS-md9" firstAttribute="top" secondItem="cqT-Aj-beI" secondAttribute="bottom" constant="8" id="3Nb-sl-zEz"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="trailing" secondItem="qT7-bo-SP0" secondAttribute="trailing" id="CQz-xl-pdz"/>
-<<<<<<< HEAD
-                            <constraint firstItem="AWW-CS-md9" firstAttribute="trailing" secondItem="cqT-Aj-beI" secondAttribute="trailing" id="LPn-5w-j56"/>
-                            <constraint firstItem="AWW-CS-md9" firstAttribute="leading" secondItem="cqT-Aj-beI" secondAttribute="leading" id="WQO-jN-aez"/>
-=======
                             <constraint firstItem="AWW-CS-md9" firstAttribute="trailing" secondItem="qT7-bo-SP0" secondAttribute="trailing" id="NFe-Zk-d17"/>
                             <constraint firstItem="AWW-CS-md9" firstAttribute="leading" secondItem="qT7-bo-SP0" secondAttribute="leading" id="WYa-mT-Q5i"/>
->>>>>>> da459654c453609c2a5dfc3f9991d06a524915b4
                             <constraint firstItem="AWW-CS-md9" firstAttribute="top" secondItem="cqT-Aj-beI" secondAttribute="bottom" constant="8" id="Wnn-5o-ErW"/>
                             <constraint firstItem="cqT-Aj-beI" firstAttribute="leading" secondItem="qT7-bo-SP0" secondAttribute="leading" id="bEc-CC-5Wb"/>
                             <constraint firstItem="AWW-CS-md9" firstAttribute="bottom" secondItem="qT7-bo-SP0" secondAttribute="bottom" id="cIj-XT-mha"/>
@@ -313,7 +308,6 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
-<<<<<<< HEAD
                                 <color key="backgroundColor" white="1" alpha="0.41879815924657532" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="180" id="940-Jm-tQQ"/>
@@ -393,13 +387,6 @@
                             <constraint firstItem="hAf-jn-a62" firstAttribute="top" secondItem="REn-Zt-9ZJ" secondAttribute="bottom" constant="43" id="SHq-0n-uxf"/>
                             <constraint firstItem="uh0-ng-vzq" firstAttribute="top" secondItem="d6Z-sn-Cst" secondAttribute="bottom" constant="95" id="Smw-Yd-y7u"/>
                             <constraint firstItem="hGX-Vh-8ou" firstAttribute="trailing" secondItem="uh0-ng-vzq" secondAttribute="trailing" constant="30" id="TAR-Ew-USg"/>
-=======
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.57647058819999997" green="0.6588235294" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="M9f-wm-6NE" firstAttribute="centerX" secondItem="bFD-op-SV5" secondAttribute="centerX" id="CAo-FN-JTQ"/>
->>>>>>> da459654c453609c2a5dfc3f9991d06a524915b4
                             <constraint firstItem="d6Z-sn-Cst" firstAttribute="centerX" secondItem="bFD-op-SV5" secondAttribute="centerX" id="WCh-bh-JpT"/>
                             <constraint firstItem="M9f-wm-6NE" firstAttribute="leading" secondItem="hGX-Vh-8ou" secondAttribute="leading" constant="40" id="XzE-dC-BMA"/>
                             <constraint firstItem="M9f-wm-6NE" firstAttribute="top" secondItem="d6Z-sn-Cst" secondAttribute="bottom" constant="75" id="n5U-m9-Ggr"/>
