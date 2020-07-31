@@ -23,9 +23,9 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
         let formatter = DateFormatter()
-        formatter.dateFormat = "EEEE MM-dd-YYYY at h:mm a"
+        formatter.dateFormat = "MMM dd, YYYY"
         let string = formatter.string(from: date)
-        print("\(string)")
+        print(string)
     }
 
 }
