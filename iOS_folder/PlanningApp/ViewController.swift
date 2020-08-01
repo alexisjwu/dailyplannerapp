@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         table.dataSource = self
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: { success, error in
             if success {
-                print("CompletionNotifications")
+                print("Completion Notifications")
             }
             else if error != nil {
                 print("error occurred")

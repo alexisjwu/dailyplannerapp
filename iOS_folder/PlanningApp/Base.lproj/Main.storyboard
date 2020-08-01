@@ -61,6 +61,7 @@
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" selectedImage="doc.plaintext" id="qdq-LB-t5p"/>
                     <connections>
                         <outlet property="calendar" destination="cqT-Aj-beI" id="T4a-zB-47x"/>
+                        <outlet property="table" destination="AWW-CS-md9" id="5YW-VT-aJc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xT9-vU-wCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -195,22 +196,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnr-kX-6Hc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-729" y="563"/>
-        </scene>
-        <!--Tomorrow-->
-        <scene sceneID="Omr-Gb-f4u">
-            <objects>
-                <viewController id="FWl-Dx-Nmz" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7x4-dg-j1Q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.57647058819999997" green="0.6588235294" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="kdn-jc-8lB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Tomorrow" image="arrowshape.turn.up.right.fill" catalog="system" id="h89-5L-nyn"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VOr-ZD-Ov1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1106" y="563"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="yMa-OX-zWp">
@@ -559,7 +544,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="doc.plaintext" catalog="system" width="115" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
