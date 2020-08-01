@@ -59,6 +59,9 @@
                         <viewLayoutGuide key="safeArea" id="qT7-bo-SP0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" selectedImage="doc.plaintext" id="qdq-LB-t5p"/>
+                    <connections>
+                        <outlet property="calendarTasks" destination="AWW-CS-md9" id="kCd-m6-DVP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xT9-vU-wCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
