@@ -30,7 +30,7 @@
                                         <color key="value" red="0.0021939212330000001" green="0.0078995367670000004" blue="0.34225171230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="selectionColor">
-                                        <color key="value" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="titleDefaultColor">
                                         <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -60,12 +60,12 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Calendar" image="calendar" catalog="system" selectedImage="doc.plaintext" id="qdq-LB-t5p"/>
                     <connections>
-                        <outlet property="calendarTasks" destination="AWW-CS-md9" id="kCd-m6-DVP"/>
+                        <outlet property="calendar" destination="cqT-Aj-beI" id="T4a-zB-47x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xT9-vU-wCH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="634.78260869565224" y="714.50892857142856"/>
+            <point key="canvasLocation" x="381" y="563"/>
         </scene>
         <!--Reminders-->
         <scene sceneID="1jc-ek-ly2">
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lwc-VQ-N8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1483" y="715"/>
+            <point key="canvasLocation" x="-1481" y="563"/>
         </scene>
         <!--Add View Controller-->
         <scene sceneID="5aL-bM-is4">
@@ -194,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnr-kX-6Hc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-700" y="712"/>
+            <point key="canvasLocation" x="-729" y="563"/>
         </scene>
         <!--Tomorrow-->
         <scene sceneID="Omr-Gb-f4u">
@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOr-ZD-Ov1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1381.1594202898552" y="714.50892857142856"/>
+            <point key="canvasLocation" x="1106" y="563"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="yMa-OX-zWp">
@@ -555,7 +555,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmF-rF-Ozd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2228" y="715"/>
+            <point key="canvasLocation" x="-2222" y="563"/>
         </scene>
     </scenes>
     <resources>
