@@ -18,7 +18,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate {
 
         // Do any additional setup after loading the view.
         
-        calendar.delegate = self
+        // calendar.delegate = self
     }
     
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
