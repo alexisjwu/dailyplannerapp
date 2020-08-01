@@ -14,8 +14,11 @@ import FSCalendar
 
 class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource, UITableViewDelegate {
     
+    var items: [MyReminder] = []
+    
     @IBOutlet weak var calendar: FSCalendar!
     @IBOutlet weak var table: UITableView!
+    var models = [MyReminder]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,20 +26,20 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
         calendar.delegate = self
         
         table.delegate = self
+    }
+    
+    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
+        // getting selected date
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMM dd, YYYY"
+        let currentDate = formatter.string(from: date)
+        print(currentDate)
         
         let user = Auth.auth().currentUser
         let uid = user!.uid
         
-        // getting chosen date
-        let chosenDay = calendar.currentPage
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM dd, yyyy"
-        let result = formatter.string(from: chosenDay)
-        print(result)
-        
-        //showing data values on list
         let ref = Database.database().reference().child("Accounts").child(uid).child("Reminders")
-        ref.child(result).observe(.value, with: { snapshot in
+        ref.child(currentDate).observe(.value, with: { snapshot in
             var newItems: [MyReminder] = []
             for child in snapshot.children {
                 if let snapshotChild = child as? DataSnapshot,
@@ -45,16 +48,8 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
                 }
             }
             
-            //self.items = newItems
+            self.items = newItems
             self.table.reloadData()
         })
     }
-    
-    func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM dd, YYYY"
-        let currentDate = formatter.string(from: date)
-        print(currentDate)
-    }
-    
 }

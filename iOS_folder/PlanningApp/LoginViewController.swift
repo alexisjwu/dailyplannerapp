@@ -3,6 +3,7 @@
 //  PlanningApp
 //
 //  Created by Meena Sambandam on 7/25/20.
+//  Edited by Alexis Wu on 7/29/20.
 //  Copyright © 2020 Smriti Somasundaram. All rights reserved.
 //
 
