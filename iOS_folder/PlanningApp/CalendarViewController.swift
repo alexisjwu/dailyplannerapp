@@ -27,7 +27,7 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
         
         table.delegate = self
     }
-    
+
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
         // getting selected date
         let formatter = DateFormatter()
@@ -52,4 +52,48 @@ class CalendarViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
             self.table.reloadData()
         })
     }
+    
 }
+
+extension CalendarViewController: UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        table.dataSource = self
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel?.text = items[indexPath.row].title
+        cell.detailTextLabel?.text = items[indexPath.row].body
+        return cell
+    }
+}
+
+
+struct MyCalendar {
+    let title: String
+    let date: String
+    let body: String
+    let ref : DatabaseReference?
+    
+    init?(snapshot: DataSnapshot) {
+        guard
+            let value = snapshot.value as? [String: AnyObject],
+            let title = value["title"] as? String,
+            let date = value["date"] as? String,
+            let body = value["body"] as? String
+            
+            else {
+                return nil
+        }
+        
+        self.ref = snapshot.ref
+        self.title = title
+        self.date = date
+        self.body = body
+    }
+}
+
