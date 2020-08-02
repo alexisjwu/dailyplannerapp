@@ -92,8 +92,8 @@
 		F23EF84C24B7798F00862DBE /* PlanningApp */ = {
 			isa = PBXGroup;
 			children = (
-				B8D483B824CF544500F96ABC /* SignUpViewController.swift */,
 				F23EF84D24B7798F00862DBE /* AppDelegate.swift */,
+				B8D483B824CF544500F96ABC /* SignUpViewController.swift */,
 				F2BA61B824CCD59C00EA8EB1 /* LoginViewController.swift */,
 				F23EF84F24B7798F00862DBE /* SceneDelegate.swift */,
 				F23EF85124B7798F00862DBE /* ViewController.swift */,
