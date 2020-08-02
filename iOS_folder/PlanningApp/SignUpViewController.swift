@@ -20,6 +20,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var diffPass: UILabel!
     @IBOutlet weak var invalid: UILabel!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         empty.isHidden = true
