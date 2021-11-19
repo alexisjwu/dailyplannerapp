@@ -1,4 +1,4 @@
-# Daily Planner App
+# Planni5, a New Daily Planner App
 
 Project Team: Alexis Wu, Catherine Jin, Smriti Somasundaram
 
