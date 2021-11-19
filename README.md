@@ -13,4 +13,4 @@ With efficient, easy-to-use features and a clean user interface, Planni5 solves 
 
 ## Tech Talk Presentation
 
-Visit our CodeDay CodeLabs 2020 Tech Talk presentation [here](https://youtu.be/WH6GgOnnNKs).
+Check out our app in action! Visit our CodeDay CodeLabs 2020 Tech Talk presentation [here](https://youtu.be/WH6GgOnnNKs).
